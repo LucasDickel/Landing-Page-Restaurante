@@ -1,0 +1,104 @@
+#section-depoimentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 132px;
+    min-height: 80vh;
+    gap: 48px;
+}
+
+
+#depoimentos {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#depoimentos h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#tittle-depoimento {
+    color: #E9A209;
+    font-size: 25px;
+}
+
+#feedbacks {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback {
+    background-color: #fff;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    padding: 12px;
+    max-width: 740px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.322);
+    border-radius: 20px;
+}
+
+.comentario {
+    text-align: start;
+    padding-left: 10px;
+}
+
+.comentario-fulana {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comentario-fulana i {
+    color: #E9A209;
+}
+
+#mais-ava {
+    padding-top: 30px;
+}
+
+#mais-ava a {
+    background-color: #E9A209;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+}
+
+#mais-ava a:hover {
+    background-color: #e2a521;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.308);
+}
+
+
+@media screen and (max-width: 1170px) {
+
+    #section-depoimentos {
+        padding: 28px 40px;
+    }
+
+    #depoimentos {
+        text-align: center;
+        margin: auto;
+    }
+
+    img#img-chef  {
+        display: none;
+    }
+
+    #depoimentos h2 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .feedback {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+

@@ -1,0 +1,29 @@
+footer {
+    position: absolute;
+    background-color: #FFE8B4;
+    width: 100%;
+}
+
+footer img {
+    color: #ffb300;
+    display: flex;
+}
+
+#footer-items {
+    padding: 0px 8% 24px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-items span {
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+}
+
+@media screen and (max-width: 768px) {
+    #footer-items {
+        gap: 10px;
+        flex-direction: column;
+    }
+}
